@@ -1,0 +1,19 @@
+@import "../styles/globals.css";
+
+@layer base {
+  :root {
+    @apply font-sans;
+  }
+
+  html {
+    @apply min-h-full;
+  }
+
+  body {
+    @apply min-h-screen min-w-[320px] m-0 bg-background text-foreground;
+  }
+
+  #root {
+    @apply min-h-screen;
+  }
+}
